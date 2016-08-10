@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75142FAAD25F56927116BD05 /* libPods-RunwayDesignerPrototypeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FAF2420EFDFECA6C30EB44 /* libPods-RunwayDesignerPrototypeTests.a */; };
+		7BF1C9EEFAA766B5ADCE072D /* libPods-RunwayDesignerPrototype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04108099DA479D085DA08C55 /* libPods-RunwayDesignerPrototype.a */; };
+		C1AC9D6C1D52A64E002776F5 /* RDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC9D6B1D52A64E002776F5 /* RDMainViewController.m */; };
+		C1AC9D701D52AB95002776F5 /* RDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AC9D6F1D52AB95002776F5 /* RDRequestManager.m */; };
+		C1D5A39C1D58DB72000C65C1 /* RDRandomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A39B1D58DB72000C65C1 /* RDRandomItem.m */; };
+		C1D5A3A21D58E2BF000C65C1 /* RDRandomItemsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3A11D58E2BF000C65C1 /* RDRandomItemsStore.m */; };
+		C1D5A3A81D590C65000C65C1 /* RDProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3A71D590C65000C65C1 /* RDProductViewController.m */; };
+		C1D5A3AB1D5933B2000C65C1 /* RDRandomItemImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3AA1D5933B2000C65C1 /* RDRandomItemImage.m */; };
+		C1D5A3B01D596EE9000C65C1 /* RDProductDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3AE1D596EE9000C65C1 /* RDProductDetailCell.m */; };
+		C1D5A3B11D596EE9000C65C1 /* RDProductDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D5A3AF1D596EE9000C65C1 /* RDProductDetailCell.xib */; };
+		C1D5A3B51D59A2D7000C65C1 /* RDDesignerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3B31D59A2D7000C65C1 /* RDDesignerCell.m */; };
+		C1D5A3B61D59A2D7000C65C1 /* RDDesignerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D5A3B41D59A2D7000C65C1 /* RDDesignerCell.xib */; };
+		C1D5A3BD1D5A5B0F000C65C1 /* RDProductImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3BB1D5A5B0F000C65C1 /* RDProductImageCell.m */; };
+		C1D5A3BE1D5A5B0F000C65C1 /* RDProductImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D5A3BC1D5A5B0F000C65C1 /* RDProductImageCell.xib */; };
+		C1D5A3C31D5A6EE7000C65C1 /* UIViewController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3C21D5A6EE7000C65C1 /* UIViewController+BackButton.m */; };
+		C1D5A3CA1D5AA2CC000C65C1 /* RDDesignerRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3C91D5AA2CC000C65C1 /* RDDesignerRealm.m */; };
+		C1D5A3D01D5AE5F7000C65C1 /* UIViewController+UIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D5A3CF1D5AE5F7000C65C1 /* UIViewController+UIAlertController.m */; };
 		C1FD935F1D52A0AF0091F96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FD935E1D52A0AF0091F96E /* main.m */; };
-		C1FD93621D52A0AF0091F96E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FD93611D52A0AF0091F96E /* AppDelegate.m */; };
-		C1FD93651D52A0AF0091F96E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FD93641D52A0AF0091F96E /* ViewController.m */; };
+		C1FD93621D52A0AF0091F96E /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FD93611D52A0AF0091F96E /* RDAppDelegate.m */; };
 		C1FD93681D52A0AF0091F96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FD93661D52A0AF0091F96E /* Main.storyboard */; };
 		C1FD936A1D52A0AF0091F96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FD93691D52A0AF0091F96E /* Assets.xcassets */; };
 		C1FD936D1D52A0AF0091F96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FD936B1D52A0AF0091F96E /* LaunchScreen.storyboard */; };
@@ -35,12 +51,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04108099DA479D085DA08C55 /* libPods-RunwayDesignerPrototype.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunwayDesignerPrototype.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FAF2420EFDFECA6C30EB44 /* libPods-RunwayDesignerPrototypeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunwayDesignerPrototypeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E63C5C95C5CFEA65045E385 /* Pods-RunwayDesignerPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunwayDesignerPrototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunwayDesignerPrototype/Pods-RunwayDesignerPrototype.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE707A8EAF2DBD63DA1624A /* Pods-RunwayDesignerPrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunwayDesignerPrototypeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunwayDesignerPrototypeTests/Pods-RunwayDesignerPrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C08195F1612CA053DF6B04AF /* Pods-RunwayDesignerPrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunwayDesignerPrototypeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunwayDesignerPrototypeTests/Pods-RunwayDesignerPrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1AC9D6A1D52A64E002776F5 /* RDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDMainViewController.h; path = viewControllers/RDMainViewController.h; sourceTree = "<group>"; };
+		C1AC9D6B1D52A64E002776F5 /* RDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDMainViewController.m; path = viewControllers/RDMainViewController.m; sourceTree = "<group>"; };
+		C1AC9D6E1D52AB95002776F5 /* RDRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDRequestManager.h; path = Networking/RDRequestManager.h; sourceTree = "<group>"; };
+		C1AC9D6F1D52AB95002776F5 /* RDRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDRequestManager.m; path = Networking/RDRequestManager.m; sourceTree = "<group>"; };
+		C1D5A3981D5860D8000C65C1 /* RDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDConstants.h; sourceTree = "<group>"; };
+		C1D5A39A1D58DB72000C65C1 /* RDRandomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDRandomItem.h; path = Models/RDRandomItem.h; sourceTree = "<group>"; };
+		C1D5A39B1D58DB72000C65C1 /* RDRandomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDRandomItem.m; path = Models/RDRandomItem.m; sourceTree = "<group>"; };
+		C1D5A3A01D58E2BF000C65C1 /* RDRandomItemsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDRandomItemsStore.h; path = Networking/RDRandomItemsStore.h; sourceTree = "<group>"; };
+		C1D5A3A11D58E2BF000C65C1 /* RDRandomItemsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDRandomItemsStore.m; path = Networking/RDRandomItemsStore.m; sourceTree = "<group>"; };
+		C1D5A3A61D590C65000C65C1 /* RDProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDProductViewController.h; path = viewControllers/RDProductViewController.h; sourceTree = "<group>"; };
+		C1D5A3A71D590C65000C65C1 /* RDProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDProductViewController.m; path = viewControllers/RDProductViewController.m; sourceTree = "<group>"; };
+		C1D5A3A91D5933B2000C65C1 /* RDRandomItemImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDRandomItemImage.h; path = Models/RDRandomItemImage.h; sourceTree = "<group>"; };
+		C1D5A3AA1D5933B2000C65C1 /* RDRandomItemImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDRandomItemImage.m; path = Models/RDRandomItemImage.m; sourceTree = "<group>"; };
+		C1D5A3AD1D596EE9000C65C1 /* RDProductDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDProductDetailCell.h; path = viewControllers/Cells/RDProductDetailCell.h; sourceTree = "<group>"; };
+		C1D5A3AE1D596EE9000C65C1 /* RDProductDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDProductDetailCell.m; path = viewControllers/Cells/RDProductDetailCell.m; sourceTree = "<group>"; };
+		C1D5A3AF1D596EE9000C65C1 /* RDProductDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RDProductDetailCell.xib; path = viewControllers/Cells/RDProductDetailCell.xib; sourceTree = "<group>"; };
+		C1D5A3B21D59A2D7000C65C1 /* RDDesignerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDesignerCell.h; path = viewControllers/Cells/RDDesignerCell.h; sourceTree = "<group>"; };
+		C1D5A3B31D59A2D7000C65C1 /* RDDesignerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDesignerCell.m; path = viewControllers/Cells/RDDesignerCell.m; sourceTree = "<group>"; };
+		C1D5A3B41D59A2D7000C65C1 /* RDDesignerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RDDesignerCell.xib; path = viewControllers/Cells/RDDesignerCell.xib; sourceTree = "<group>"; };
+		C1D5A3BA1D5A5B0F000C65C1 /* RDProductImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDProductImageCell.h; path = viewControllers/Cells/RDProductImageCell.h; sourceTree = "<group>"; };
+		C1D5A3BB1D5A5B0F000C65C1 /* RDProductImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDProductImageCell.m; path = viewControllers/Cells/RDProductImageCell.m; sourceTree = "<group>"; };
+		C1D5A3BC1D5A5B0F000C65C1 /* RDProductImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RDProductImageCell.xib; path = viewControllers/Cells/RDProductImageCell.xib; sourceTree = "<group>"; };
+		C1D5A3C11D5A6EE7000C65C1 /* UIViewController+BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BackButton.h"; path = "Helpers/Categories/UIViewController+BackButton.h"; sourceTree = "<group>"; };
+		C1D5A3C21D5A6EE7000C65C1 /* UIViewController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BackButton.m"; path = "Helpers/Categories/UIViewController+BackButton.m"; sourceTree = "<group>"; };
+		C1D5A3C81D5AA2CC000C65C1 /* RDDesignerRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDDesignerRealm.h; path = Database/RDDesignerRealm.h; sourceTree = "<group>"; };
+		C1D5A3C91D5AA2CC000C65C1 /* RDDesignerRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDDesignerRealm.m; path = Database/RDDesignerRealm.m; sourceTree = "<group>"; };
+		C1D5A3CE1D5AE5F7000C65C1 /* UIViewController+UIAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+UIAlertController.h"; path = "Helpers/Categories/UIViewController+UIAlertController.h"; sourceTree = "<group>"; };
+		C1D5A3CF1D5AE5F7000C65C1 /* UIViewController+UIAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+UIAlertController.m"; path = "Helpers/Categories/UIViewController+UIAlertController.m"; sourceTree = "<group>"; };
 		C1FD935A1D52A0AF0091F96E /* RunwayDesignerPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunwayDesignerPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FD935E1D52A0AF0091F96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1FD93601D52A0AF0091F96E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C1FD93611D52A0AF0091F96E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1FD93631D52A0AF0091F96E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1FD93641D52A0AF0091F96E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1FD93601D52A0AF0091F96E /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		C1FD93611D52A0AF0091F96E /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
 		C1FD93671D52A0AF0091F96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1FD93691D52A0AF0091F96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1FD936C1D52A0AF0091F96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +98,7 @@
 		C1FD937E1D52A0B00091F96E /* RunwayDesignerPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunwayDesignerPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FD93821D52A0B00091F96E /* RunwayDesignerPrototypeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunwayDesignerPrototypeUITests.m; sourceTree = "<group>"; };
 		C1FD93841D52A0B00091F96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA50A5916D2A54F01344F9D6 /* Pods-RunwayDesignerPrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunwayDesignerPrototype.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunwayDesignerPrototype/Pods-RunwayDesignerPrototype.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF1C9EEFAA766B5ADCE072D /* libPods-RunwayDesignerPrototype.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75142FAAD25F56927116BD05 /* libPods-RunwayDesignerPrototypeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59BCED6A6C41AF6C3481109E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E63C5C95C5CFEA65045E385 /* Pods-RunwayDesignerPrototype.debug.xcconfig */,
+				FA50A5916D2A54F01344F9D6 /* Pods-RunwayDesignerPrototype.release.xcconfig */,
+				C08195F1612CA053DF6B04AF /* Pods-RunwayDesignerPrototypeTests.debug.xcconfig */,
+				5EE707A8EAF2DBD63DA1624A /* Pods-RunwayDesignerPrototypeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1AC9D691D52A602002776F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC9D6A1D52A64E002776F5 /* RDMainViewController.h */,
+				C1AC9D6B1D52A64E002776F5 /* RDMainViewController.m */,
+				C1D5A3A61D590C65000C65C1 /* RDProductViewController.h */,
+				C1D5A3A71D590C65000C65C1 /* RDProductViewController.m */,
+				C1D5A3AC1D596EA6000C65C1 /* Cells */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1AC9D6D1D52AB60002776F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC9D6E1D52AB95002776F5 /* RDRequestManager.h */,
+				C1AC9D6F1D52AB95002776F5 /* RDRequestManager.m */,
+				C1D5A3A01D58E2BF000C65C1 /* RDRandomItemsStore.h */,
+				C1D5A3A11D58E2BF000C65C1 /* RDRandomItemsStore.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C1D5A3991D58DB2C000C65C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5A39A1D58DB72000C65C1 /* RDRandomItem.h */,
+				C1D5A39B1D58DB72000C65C1 /* RDRandomItem.m */,
+				C1D5A3A91D5933B2000C65C1 /* RDRandomItemImage.h */,
+				C1D5A3AA1D5933B2000C65C1 /* RDRandomItemImage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C1D5A3AC1D596EA6000C65C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5A3AD1D596EE9000C65C1 /* RDProductDetailCell.h */,
+				C1D5A3AE1D596EE9000C65C1 /* RDProductDetailCell.m */,
+				C1D5A3AF1D596EE9000C65C1 /* RDProductDetailCell.xib */,
+				C1D5A3B21D59A2D7000C65C1 /* RDDesignerCell.h */,
+				C1D5A3B31D59A2D7000C65C1 /* RDDesignerCell.m */,
+				C1D5A3B41D59A2D7000C65C1 /* RDDesignerCell.xib */,
+				C1D5A3BA1D5A5B0F000C65C1 /* RDProductImageCell.h */,
+				C1D5A3BB1D5A5B0F000C65C1 /* RDProductImageCell.m */,
+				C1D5A3BC1D5A5B0F000C65C1 /* RDProductImageCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C1D5A3BF1D5A6E96000C65C1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5A3C01D5A6EAD000C65C1 /* Categories */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C1D5A3C01D5A6EAD000C65C1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5A3C11D5A6EE7000C65C1 /* UIViewController+BackButton.h */,
+				C1D5A3C21D5A6EE7000C65C1 /* UIViewController+BackButton.m */,
+				C1D5A3CE1D5AE5F7000C65C1 /* UIViewController+UIAlertController.h */,
+				C1D5A3CF1D5AE5F7000C65C1 /* UIViewController+UIAlertController.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		C1D5A3C41D5A83B3000C65C1 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5A3C81D5AA2CC000C65C1 /* RDDesignerRealm.h */,
+				C1D5A3C91D5AA2CC000C65C1 /* RDDesignerRealm.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		C1FD93511D52A0AF0091F96E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +224,8 @@
 				C1FD93761D52A0B00091F96E /* RunwayDesignerPrototypeTests */,
 				C1FD93811D52A0B00091F96E /* RunwayDesignerPrototypeUITests */,
 				C1FD935B1D52A0AF0091F96E /* Products */,
+				59BCED6A6C41AF6C3481109E /* Pods */,
+				C95F697580EAC85463D1E6E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +242,14 @@
 		C1FD935C1D52A0AF0091F96E /* RunwayDesignerPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				C1FD93601D52A0AF0091F96E /* AppDelegate.h */,
-				C1FD93611D52A0AF0091F96E /* AppDelegate.m */,
-				C1FD93631D52A0AF0091F96E /* ViewController.h */,
-				C1FD93641D52A0AF0091F96E /* ViewController.m */,
+				C1FD93601D52A0AF0091F96E /* RDAppDelegate.h */,
+				C1FD93611D52A0AF0091F96E /* RDAppDelegate.m */,
+				C1D5A3981D5860D8000C65C1 /* RDConstants.h */,
+				C1AC9D691D52A602002776F5 /* ViewControllers */,
+				C1D5A3991D58DB2C000C65C1 /* Models */,
+				C1AC9D6D1D52AB60002776F5 /* Networking */,
+				C1D5A3C41D5A83B3000C65C1 /* Database */,
+				C1D5A3BF1D5A6E96000C65C1 /* Helpers */,
 				C1FD93661D52A0AF0091F96E /* Main.storyboard */,
 				C1FD93691D52A0AF0091F96E /* Assets.xcassets */,
 				C1FD936B1D52A0AF0091F96E /* LaunchScreen.storyboard */,
@@ -140,6 +285,15 @@
 			path = RunwayDesignerPrototypeUITests;
 			sourceTree = "<group>";
 		};
+		C95F697580EAC85463D1E6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04108099DA479D085DA08C55 /* libPods-RunwayDesignerPrototype.a */,
+				26FAF2420EFDFECA6C30EB44 /* libPods-RunwayDesignerPrototypeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1FD93871D52A0B00091F96E /* Build configuration list for PBXNativeTarget "RunwayDesignerPrototype" */;
 			buildPhases = (
+				40BC67C289A73E0FB882AB1D /* Check Pods Manifest.lock */,
 				C1FD93561D52A0AF0091F96E /* Sources */,
 				C1FD93571D52A0AF0091F96E /* Frameworks */,
 				C1FD93581D52A0AF0091F96E /* Resources */,
+				0EE4DC11A36DBC884A7019F2 /* Embed Pods Frameworks */,
+				D18A9AD03CFB72E0D14D1595 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1FD938A1D52A0B00091F96E /* Build configuration list for PBXNativeTarget "RunwayDesignerPrototypeTests" */;
 			buildPhases = (
+				996EBA84D2768F67E186FA3D /* Check Pods Manifest.lock */,
 				C1FD936F1D52A0B00091F96E /* Sources */,
 				C1FD93701D52A0B00091F96E /* Frameworks */,
 				C1FD93711D52A0B00091F96E /* Resources */,
+				0F1EA41E3FF959910CEC40AB /* Embed Pods Frameworks */,
+				801EC097DC8F830CCEB20090 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +404,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FD936D1D52A0AF0091F96E /* LaunchScreen.storyboard in Resources */,
+				C1D5A3B61D59A2D7000C65C1 /* RDDesignerCell.xib in Resources */,
 				C1FD936A1D52A0AF0091F96E /* Assets.xcassets in Resources */,
+				C1D5A3BE1D5A5B0F000C65C1 /* RDProductImageCell.xib in Resources */,
+				C1D5A3B11D596EE9000C65C1 /* RDProductDetailCell.xib in Resources */,
 				C1FD93681D52A0AF0091F96E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +428,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE4DC11A36DBC884A7019F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunwayDesignerPrototype/Pods-RunwayDesignerPrototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1EA41E3FF959910CEC40AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunwayDesignerPrototypeTests/Pods-RunwayDesignerPrototypeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40BC67C289A73E0FB882AB1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		801EC097DC8F830CCEB20090 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunwayDesignerPrototypeTests/Pods-RunwayDesignerPrototypeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996EBA84D2768F67E186FA3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18A9AD03CFB72E0D14D1595 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunwayDesignerPrototype/Pods-RunwayDesignerPrototype-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1FD93561D52A0AF0091F96E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FD93651D52A0AF0091F96E /* ViewController.m in Sources */,
-				C1FD93621D52A0AF0091F96E /* AppDelegate.m in Sources */,
+				C1D5A3A21D58E2BF000C65C1 /* RDRandomItemsStore.m in Sources */,
+				C1D5A3BD1D5A5B0F000C65C1 /* RDProductImageCell.m in Sources */,
+				C1D5A3C31D5A6EE7000C65C1 /* UIViewController+BackButton.m in Sources */,
+				C1FD93621D52A0AF0091F96E /* RDAppDelegate.m in Sources */,
+				C1D5A3CA1D5AA2CC000C65C1 /* RDDesignerRealm.m in Sources */,
+				C1AC9D6C1D52A64E002776F5 /* RDMainViewController.m in Sources */,
 				C1FD935F1D52A0AF0091F96E /* main.m in Sources */,
+				C1D5A3D01D5AE5F7000C65C1 /* UIViewController+UIAlertController.m in Sources */,
+				C1D5A39C1D58DB72000C65C1 /* RDRandomItem.m in Sources */,
+				C1D5A3B51D59A2D7000C65C1 /* RDDesignerCell.m in Sources */,
+				C1D5A3B01D596EE9000C65C1 /* RDProductDetailCell.m in Sources */,
+				C1AC9D701D52AB95002776F5 /* RDRequestManager.m in Sources */,
+				C1D5A3AB1D5933B2000C65C1 /* RDRandomItemImage.m in Sources */,
+				C1D5A3A81D590C65000C65C1 /* RDProductViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +676,9 @@
 		};
 		C1FD93881D52A0B00091F96E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E63C5C95C5CFEA65045E385 /* Pods-RunwayDesignerPrototype.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RunwayDesignerPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -420,7 +689,9 @@
 		};
 		C1FD93891D52A0B00091F96E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA50A5916D2A54F01344F9D6 /* Pods-RunwayDesignerPrototype.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RunwayDesignerPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -431,6 +702,7 @@
 		};
 		C1FD938B1D52A0B00091F96E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08195F1612CA053DF6B04AF /* Pods-RunwayDesignerPrototypeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RunwayDesignerPrototypeTests/Info.plist;
@@ -443,6 +715,7 @@
 		};
 		C1FD938C1D52A0B00091F96E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE707A8EAF2DBD63DA1624A /* Pods-RunwayDesignerPrototypeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RunwayDesignerPrototypeTests/Info.plist;
@@ -496,6 +769,7 @@
 				C1FD93891D52A0B00091F96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FD938A1D52A0B00091F96E /* Build configuration list for PBXNativeTarget "RunwayDesignerPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +778,7 @@
 				C1FD938C1D52A0B00091F96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FD938D1D52A0B00091F96E /* Build configuration list for PBXNativeTarget "RunwayDesignerPrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +787,7 @@
 				C1FD938F1D52A0B00091F96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

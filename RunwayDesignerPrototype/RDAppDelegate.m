@@ -6,18 +6,26 @@
 //  Copyright © 2016 Amit Chandel. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RDAppDelegate.h"
 
-@interface AppDelegate ()
+@interface RDAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation RDAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setupNavigationBarAppearance];
+    
     return YES;
+}
+
+- (void)setupNavigationBarAppearance {
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor blackColor], NSForegroundColorAttributeName,
+                                                           [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:21.0], NSFontAttributeName, nil]];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
